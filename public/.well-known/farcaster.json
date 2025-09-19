@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "ChainDraw Pro",
+    "subtitle": "Built with Zara",
+    "description": "ChainDraw Pro is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://3fbe559ce41a4d4c9453c2a27e1689a4-bcpa.vercel.app",
+    "splashImageUrl": "https://3fbe559ce41a4d4c9453c2a27e1689a4-bcpa.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://3fbe559ce41a4d4c9453c2a27e1689a4-bcpa.vercel.app/image.png",
+    "tagline": "ChainDraw Pro",
+    "screenshotUrls": [
+      "https://3fbe559ce41a4d4c9453c2a27e1689a4-bcpa.vercel.app/screenshot.png",
+      "https://3fbe559ce41a4d4c9453c2a27e1689a4-bcpa.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://3fbe559ce41a4d4c9453c2a27e1689a4-bcpa.vercel.app/api/webhook"
+  }
+}

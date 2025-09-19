@@ -1,0 +1,14 @@
+{
+  "name": "ChainDraw Pro",
+  "description": "ChainDraw Pro is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://3fbe559c-e41a-4d4c-9453-c2a27e1689a4.vercel.app",
+  "properties": {
+    "app": {
+      "name": "ChainDraw Pro",
+      "description": "ChainDraw Pro is a Base Mini App built with Zara.",
+      "url": "https://3fbe559c-e41a-4d4c-9453-c2a27e1689a4.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
