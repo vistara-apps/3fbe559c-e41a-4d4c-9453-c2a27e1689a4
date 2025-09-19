@@ -85,8 +85,8 @@ export function DrawInterface() {
               onClick={() => setSelectedTier(key as keyof typeof ENTRY_FEES)}
               className={`p-3 rounded-lg border transition-all duration-200 ${
                 selectedTier === key
-                  ? 'border-primary bg-primary/20 text-white'
-                  : 'border-gray-600 bg-surface/50 text-text-secondary hover:border-gray-500'
+                  ? 'border-blue-600 bg-blue-600/20 text-white'
+                  : 'border-gray-600 bg-slate-800/50 text-gray-400 hover:border-gray-500'
               }`}
             >
               <div className="text-sm font-medium">{fee.label}</div>
