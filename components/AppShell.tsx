@@ -8,7 +8,7 @@ interface AppShellProps {
 
 export function AppShell({ children }: AppShellProps) {
   return (
-    <div className="min-h-screen bg-bg">
+    <div className="min-h-screen bg-slate-900">
       <main className="relative">
         {children}
       </main>

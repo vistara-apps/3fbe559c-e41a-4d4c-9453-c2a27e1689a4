@@ -18,7 +18,7 @@ export function NumberSelector({ numbers, selectedNumber, onSelect }: NumberSele
             className={`aspect-square rounded-lg border-2 transition-all duration-200 flex items-center justify-center font-bold ${
               selectedNumber === number
                 ? 'border-accent bg-accent/20 text-accent scale-110'
-                : 'border-gray-600 bg-surface/50 text-text-secondary hover:border-gray-500 hover:scale-105'
+                : 'border-gray-600 bg-slate-800/50 text-gray-400 hover:border-gray-500 hover:scale-105'
             }`}
           >
             {number}

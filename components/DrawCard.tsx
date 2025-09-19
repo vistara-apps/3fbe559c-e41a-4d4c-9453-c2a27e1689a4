@@ -18,7 +18,7 @@ export function DrawCard({ draw, variant }: DrawCardProps) {
           <h3 className="text-lg font-semibold text-white">
             Draw #{draw.drawId.split('_')[2] || '001'}
           </h3>
-          <p className="text-text-secondary text-sm">
+          <p className="text-gray-400 text-sm">
             {isActive ? 'Active Now' : 'Completed'}
           </p>
         </div>
@@ -33,20 +33,20 @@ export function DrawCard({ draw, variant }: DrawCardProps) {
 
       <div className="grid grid-cols-2 gap-4">
         <div>
-          <p className="text-text-secondary text-sm">Prize Pool</p>
+          <p className="text-gray-400 text-sm">Prize Pool</p>
           <p className="text-white font-semibold">
             {formatAmount(draw.totalPrizePool)} {draw.entryFeeToken}
           </p>
         </div>
         <div>
-          <p className="text-text-secondary text-sm">Participants</p>
+          <p className="text-gray-400 text-sm">Participants</p>
           <p className="text-white font-semibold">{draw.participantCount}</p>
         </div>
       </div>
 
       {draw.winningNumber && (
         <div className="mt-4 pt-4 border-t border-gray-600">
-          <p className="text-text-secondary text-sm">Winning Number</p>
+          <p className="text-gray-400 text-sm">Winning Number</p>
           <div className="flex items-center gap-2 mt-1">
             <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">{draw.winningNumber}</span>

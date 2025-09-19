@@ -14,13 +14,13 @@ export function AnalyticsPanel({ variant = 'overview' }: AnalyticsPanelProps) {
     <div className="card mt-8">
       <div className="flex items-center justify-between mb-6">
         <h3 className="text-lg font-semibold text-white">Platform Features</h3>
-        <div className="flex bg-surface rounded-lg p-1">
+        <div className="flex bg-slate-800 rounded-lg p-1">
           <button
             onClick={() => setActiveTab('features')}
             className={`px-3 py-1 rounded text-sm font-medium transition-colors duration-200 ${
               activeTab === 'features'
-                ? 'bg-primary text-white'
-                : 'text-text-secondary hover:text-white'
+                ? 'bg-blue-600 text-white'
+                : 'text-gray-400 hover:text-white'
             }`}
           >
             Features
@@ -29,8 +29,8 @@ export function AnalyticsPanel({ variant = 'overview' }: AnalyticsPanelProps) {
             onClick={() => setActiveTab('stats')}
             className={`px-3 py-1 rounded text-sm font-medium transition-colors duration-200 ${
               activeTab === 'stats'
-                ? 'bg-primary text-white'
-                : 'text-text-secondary hover:text-white'
+                ? 'bg-blue-600 text-white'
+                : 'text-gray-400 hover:text-white'
             }`}
           >
             Stats
@@ -53,7 +53,7 @@ export function AnalyticsPanel({ variant = 'overview' }: AnalyticsPanelProps) {
                   <h4 className="text-white text-sm font-medium mb-1 leading-tight">
                     {feature.title}
                   </h4>
-                  <p className="text-text-secondary text-xs leading-tight">
+                  <p className="text-gray-400 text-xs leading-tight">
                     {feature.description}
                   </p>
                 </div>
@@ -66,21 +66,21 @@ export function AnalyticsPanel({ variant = 'overview' }: AnalyticsPanelProps) {
           <div className="grid grid-cols-2 gap-4">
             <div className="text-center p-4 bg-white/5 rounded-lg">
               <div className="text-2xl font-bold text-white">156</div>
-              <div className="text-text-secondary text-sm">Total Draws</div>
+              <div className="text-gray-400 text-sm">Total Draws</div>
             </div>
             <div className="text-center p-4 bg-white/5 rounded-lg">
               <div className="text-2xl font-bold text-white">2.4K</div>
-              <div className="text-text-secondary text-sm">Total Bets</div>
+              <div className="text-gray-400 text-sm">Total Bets</div>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="text-center p-4 bg-white/5 rounded-lg">
               <div className="text-2xl font-bold text-accent">12.5 ETH</div>
-              <div className="text-text-secondary text-sm">Total Prizes</div>
+              <div className="text-gray-400 text-sm">Total Prizes</div>
             </div>
             <div className="text-center p-4 bg-white/5 rounded-lg">
               <div className="text-2xl font-bold text-green-400">15%</div>
-              <div className="text-text-secondary text-sm">Win Rate</div>
+              <div className="text-gray-400 text-sm">Win Rate</div>
             </div>
           </div>
         </div>
